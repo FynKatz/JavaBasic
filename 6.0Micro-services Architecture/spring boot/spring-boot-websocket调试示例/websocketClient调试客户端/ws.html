@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=UTF-8">
+    <script src="sockjs.min.js"></script>
+    <script src="stomp.js"></script>
+</head>
+
+<body>
+<button onclick="connect()">connect</button>
+<button onclick="disconnect()">disconnect</button>
+<button onclick="send()">send</button>
+<button onclick="subscribe()">subscribe</button>
+
+<script>
+    var wsUrl = "ws://127.0.0.1:8010/pubService/webSocket";
+    var webSocket;
+    function createWS(){
+    	webSocket = new WebSocket(wsUrl);
+        stompClient = Stomp.over(webSocket);
+    	
+        stompClient.connect({},function(){
+        	
+        });
+    }
+
+    function connect(){
+    	createWS();
+		stompClient.connect({},function(){
+			console.log("connected");
+		},function(error){
+			console.log("connection failed",error);
+		});
+    }
+    
+    function disconnect(){
+    	stompClient.disconnect(function(){});
+    }
+
+    //发送消息
+    function send() {
+        stompClient.send("/topic/send/mas");
+    }
+
+    //订阅消息
+    function subscribe() {
+        stompClient.subscribe("/topic/getResponse");
+    }
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" 
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd
+     http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+     http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+     http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+   	<!-- 指定的package下扫描以及注册javabean -->
+	<context:component-scan base-package="com.huyy.service" />
+
+	<!--数据源-链接数据库的基本信息,这里直接写,不放到*.properties资源文件中-->
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">  
+	  <property name="driverClassName">  
+	      <value>com.mysql.jdbc.Driver</value>  
+	  </property>  
+	  <property name="url">  
+	      <value>jdbc:mysql://localhost:3306/ssm?characterEncoding=UTF-8</value>  
+	  </property>  
+	  <property name="username">  
+	      <value>root</value>  
+	  </property>  
+	  <property name="password">  
+	      <value>123456</value>  
+	  </property>  	
+	</bean>
+	
+	 <!-- 配置mybatis数据源,加载配置,也就是dataSource -->
+	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="typeAliasesPackage" value="com.huyy.pojo" />
+		<property name="dataSource" ref="dataSource"/>
+		<property name="mapperLocations" value="classpath:com/huyy/mapper/*.xml"/>
+	</bean>
+
+	<!-- 在springmvc与mybatis整合时，需要对每一个mapper定义对应的一个MapperFactoryBean，
+	可以使用MapperScannerConfigurer自动扫描mapper，然后自动为我们注册对应的MapperFactoryBean对象。 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.huyy.mapper"/>
+	</bean>
+</beans>

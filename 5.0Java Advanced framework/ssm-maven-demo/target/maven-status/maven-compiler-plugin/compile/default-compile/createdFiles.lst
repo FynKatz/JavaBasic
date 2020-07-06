@@ -1,0 +1,5 @@
+com\huyy\service\CategoryService.class
+com\huyy\mapper\CategoryMapper.class
+com\huyy\controller\CategoryController.class
+com\huyy\pojo\Category.class
+com\huyy\service\impl\CategoryServiceImpl.class

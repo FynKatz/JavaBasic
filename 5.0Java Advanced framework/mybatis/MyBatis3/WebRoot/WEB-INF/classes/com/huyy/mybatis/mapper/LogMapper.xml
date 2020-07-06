@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.huyy.mybatis.mapper.LogMapper">
+	<select id="selectAll" resultType="Log">
+		select * from log
+	</select>
+	<!-- 当多参数时，不需要写parameterType -->
+	<select id="selectByAccInAccOut" resultType="Log">
+		select * from log where accIn=#{accin} and accOut=#{accout}
+	</select>
+</mapper>
