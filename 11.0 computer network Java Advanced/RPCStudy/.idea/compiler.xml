@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RPC_03" />
+        <module name="RPC_02" />
+        <module name="RPC_01" />
+        <module name="RPC_08hession" />
+        <module name="Common" />
+        <module name="RPC_07hession" />
+        <module name="RPC_06" />
+        <module name="RPC_05" />
+        <module name="RPC_04" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Common" target="1.5" />
+      <module name="RPC_0" target="1.5" />
+      <module name="RPC_01" target="1.5" />
+      <module name="RPC_02" target="1.5" />
+      <module name="RPC_03" target="1.5" />
+      <module name="RPC_04" target="1.5" />
+      <module name="RPC_05" target="1.5" />
+      <module name="RPC_06" target="1.5" />
+      <module name="RPC_07hession" target="1.5" />
+      <module name="RPC_08hession" target="1.5" />
+      <module name="RPCStudy" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
