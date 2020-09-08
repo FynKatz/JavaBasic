@@ -9,7 +9,11 @@
         <module name="NIO" />
         <module name="Multiplexing" />
         <module name="BIO" />
+        <module name="multiplexing_epoll" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="IOStudy" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
