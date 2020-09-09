@@ -13,7 +13,14 @@
         <module>NIO</module>
         <module>Multiplexing</module>
         <module>multiplexing_epoll</module>
+        <module>netty</module>
+        <module>netty_study</module>
     </modules>
 
+    <properties>
+        <!--指定Java版本-->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
 </project>
