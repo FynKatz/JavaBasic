@@ -14,6 +14,7 @@ import java.util.concurrent.Executors;
 
 public class PoolServer {
 
+    //定义一个线程池（50个工人）
     ExecutorService pool = Executors.newFixedThreadPool(50);
 
     private Selector selector;
@@ -25,8 +26,8 @@ public class PoolServer {
      */
     public static void main(String[] args) throws IOException {
         PoolServer server = new PoolServer();
-        server.initServer(8000);
-        server.listen();
+        server.initServer(8000);//bind+listen
+        server.listen();//处理
     }
 
     /**
@@ -35,16 +36,14 @@ public class PoolServer {
      * @throws IOException
      */
     public void initServer(int port) throws IOException {
-        //
-        ServerSocketChannel serverChannel = ServerSocketChannel.open();
-        //
-        serverChannel.configureBlocking(false);
-        //
-        serverChannel.socket().bind(new InetSocketAddress(port));
-        //
-        this.selector = Selector.open();
 
-        serverChannel.register(selector, SelectionKey.OP_ACCEPT);
+        ServerSocketChannel serverChannel = ServerSocketChannel.open();//NIO封装类
+        serverChannel.configureBlocking(false);//非阻塞
+        serverChannel.socket().bind(new InetSocketAddress(port));//绑定bind
+        this.selector = Selector.open();//开启selector
+
+        ///注册监听客户端连接事件
+        serverChannel.register(selector, SelectionKey.OP_ACCEPT);//监听listen
         System.out.println("服务端启动成功！");
     }
 
@@ -64,7 +63,7 @@ public class PoolServer {
                 SelectionKey key = (SelectionKey) ite.next();
                 //
                 ite.remove();
-                //
+                //如果可连接状态，注册可读状态
                 if (key.isAcceptable()) {
                     ServerSocketChannel server = (ServerSocketChannel) key.channel();
                     //
@@ -74,7 +73,7 @@ public class PoolServer {
                     //
                     channel.register(this.selector, SelectionKey.OP_READ);
                     //
-                } else if (key.isReadable()) {
+                } else if (key.isReadable()) {//如果可读状态，交给线程池
                     //
                     key.interestOps(key.interestOps()&(~SelectionKey.OP_READ));
                     //

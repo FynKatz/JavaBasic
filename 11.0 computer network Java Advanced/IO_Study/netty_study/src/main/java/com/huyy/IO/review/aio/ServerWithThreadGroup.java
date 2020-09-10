@@ -12,14 +12,16 @@ import java.util.concurrent.Executors;
 
 public class ServerWithThreadGroup {
     public static void main(String[] args) throws Exception {
-
+        //new 线程池
         ExecutorService executorService = Executors.newCachedThreadPool();
+        //一个线程池
         AsynchronousChannelGroup threadGroup = AsynchronousChannelGroup.withCachedThreadPool(executorService, 1);
 
-        //中文测试
+        //bind + listen
         final AsynchronousServerSocketChannel serverChannel = AsynchronousServerSocketChannel.open(threadGroup)
                 .bind(new InetSocketAddress(8888));
 
+        //后面处理：异步的accept 和 读取逻辑 同单线程。
         serverChannel.accept(null, new CompletionHandler<AsynchronousSocketChannel, Object>() {
             @Override
             public void completed(AsynchronousSocketChannel client, Object attachment) {
