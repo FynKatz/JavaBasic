@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:5.0Java-Advanced-framework" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:5.0Java-Advanced-framework" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ssm-maven-demo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:5.0Java-Advanced-framework" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ssm-maven-demo" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:target" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:5.0Java-Advanced-framework" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ssm-maven-demo" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:target" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:m2e-wtp" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:5.0Java-Advanced-framework" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ssm-maven-demo" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:target" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:m2e-wtp" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:web-resources" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:5.0Java-Advanced-framework" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ssm-maven-demo" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:target" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:m2e-wtp" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:web-resources" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:META-INF" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:5.0Java-Advanced-framework" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ssm-maven-demo" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:target" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:m2e-wtp" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:web-resources" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:META-INF" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:5.0Java-Advanced-framework" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ssm-maven-demo" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:target" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:m2e-wtp" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:web-resources" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:META-INF" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:com.huyy" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:5.0Java-Advanced-framework" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ssm-maven-demo" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:target" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:m2e-wtp" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:web-resources" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:META-INF" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:com.huyy" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ssm-maven-demo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:5.1Java-Advanced-framework_Annotation" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:5.1Java-Advanced-framework_Annotation" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:springMavenAnnotation" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="212ac170-ac16-400f-9c3a-0252778e06d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../netty_study - 副本/.idea/netty_study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty_study - 副本/netty_study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BIO_study/BIO_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIO_study/src/main/java/com/huyy/BIO/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/BIO_study/src/main/java/com/huyy/BIO/BIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIO_study/target/classes/com/huyy/BIO/BIOServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BIO_study/target/classes/com/huyy/BIO/BIOServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIO_study/target/classes/com/huyy/BIO/BIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/BIO_study/target/classes/com/huyy/BIO/BIOServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\Repository" />
+        <option name="mavenHome" value="D:\maven\apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hct3uNBXRpHUYAm8NOH8IqeV5D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BIO_study" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study" />
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study\src\main\java\com\huyy\NIO" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study" />
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study\src\main\java\com\huyy\NIO" />
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study\src\main\java\com\huyy\NIO\example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NewIOClient">
+    <configuration name="GroupChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huyy.NIO.groupchat.GroupChatClient" />
+      <module name="BIO_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huyy.NIO.groupchat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huyy.NIO.zerocopy.NewIOClient" />
+      <module name="BIO_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huyy.NIO.zerocopy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huyy.NIO.zerocopy.NewIOServer" />
+      <module name="BIO_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huyy.NIO.zerocopy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OldIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huyy.NIO.zerocopy.OldIOClient" />
+      <module name="BIO_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huyy.NIO.zerocopy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OldIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huyy.NIO.zerocopy.OldIOServer" />
+      <module name="BIO_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huyy.NIO.zerocopy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GroupChatClient" />
+      <item itemvalue="Application.OldIOServer" />
+      <item itemvalue="Application.OldIOClient" />
+      <item itemvalue="Application.NewIOServer" />
+      <item itemvalue="Application.NewIOClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NewIOClient" />
+        <item itemvalue="Application.NewIOServer" />
+        <item itemvalue="Application.OldIOClient" />
+        <item itemvalue="Application.OldIOServer" />
+        <item itemvalue="Application.GroupChatClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="212ac170-ac16-400f-9c3a-0252778e06d6" name="Default Changelist" comment="" />
+      <created>1600322015956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600322015956</updated>
+      <workItem from="1600322017330" duration="1788000" />
+      <workItem from="1600342678855" duration="3122000" />
+      <workItem from="1600430472744" duration="6187000" />
+      <workItem from="1600591226868" duration="8213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600599471572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600599471572" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1600322133974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600322133974" />
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom" timestamp="1600609935492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600609935492" />
+    <state width="1877" height="332" key="GridCell.Tab.0.center" timestamp="1600609935492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600609935492" />
+    <state width="1877" height="332" key="GridCell.Tab.0.left" timestamp="1600609935492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600609935492" />
+    <state width="1877" height="332" key="GridCell.Tab.0.right" timestamp="1600609935492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600609935492" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1600598065497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600598065497" />
+    <state x="681" y="261" width="564" height="524" key="StructurePopup" timestamp="1600350474405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="564" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600350474405" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600435094420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600435094420" />
+  </component>
+</project>

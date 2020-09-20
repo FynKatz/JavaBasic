@@ -7,10 +7,14 @@ import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * @author yyhu
+ * @create 2020-09-16-21:25
+ **/
 public class BIOServer {
 
     public static void main(String[] args) throws IOException {
-
+        //思路
         //1.创建线程池
         ExecutorService executorService = Executors.newCachedThreadPool();
         /*  应该手动创建
@@ -18,6 +22,7 @@ public class BIOServer {
         * ExecutorService threadPool=new ThreadPoolExecutor(2,5,1L,TimeUnit.SECONDS,new LinkedBlockingQueue<>(3),
         *                Executors.defaultThreadFactory(),new ThreadPoolExecutor.AbortPolicy());
         */
+
         //创建serversocket
         ServerSocket serverSocket = new ServerSocket(6666);
         System.out.println("server init...");
@@ -61,7 +66,11 @@ public class BIOServer {
                 }else {
                     break;
                 }
+
             }
+
+
+
         } catch (IOException e) {
             e.printStackTrace();
         }finally {
