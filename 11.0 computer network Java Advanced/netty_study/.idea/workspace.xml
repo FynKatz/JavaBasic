@@ -161,21 +161,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="212ac170-ac16-400f-9c3a-0252778e06d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../netty_study - 副本/.idea/netty_study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty_study - 副本/netty_study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BIO_study/BIO_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIO_study/src/main/java/com/huyy/BIO/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/BIO_study/src/main/java/com/huyy/BIO/BIOServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIO_study/target/classes/com/huyy/BIO/BIOServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BIO_study/target/classes/com/huyy/BIO/BIOServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIO_study/target/classes/com/huyy/BIO/BIOServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/BIO_study/target/classes/com/huyy/BIO/BIOServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,19 +285,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.GroupChatClient" />
       <item itemvalue="Application.OldIOServer" />
@@ -341,6 +314,7 @@
       <workItem from="1600342678855" duration="3122000" />
       <workItem from="1600430472744" duration="6187000" />
       <workItem from="1600591226868" duration="8213000" />
+      <workItem from="1600667792261" duration="2605000" />
     </task>
     <servers />
   </component>
