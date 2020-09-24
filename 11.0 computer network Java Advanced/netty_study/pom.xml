@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>BIO_study</module>
+        <module>netty</module>
     </modules>
 
     <properties>
