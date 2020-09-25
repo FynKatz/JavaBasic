@@ -161,11 +161,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="212ac170-ac16-400f-9c3a-0252778e06d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/huyy/netty/simple/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/huyy/netty/simple/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/huyy/netty/simple/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/huyy/netty/simple/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/huyy/netty/simple/NettyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/huyy/netty/simple/NettyServerHandler.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +207,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/netty/src/main/java/com/huyy/netty/simple" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/netty/src/main/java/com/huyy/netty/http" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -217,18 +216,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\netty\src\main\java\com\huyy\netty\http" />
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\netty\src\main\java\com\huyy\netty\simple" />
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study" />
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study\src\main\java\com\huyy\NIO" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study" />
       <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study\src\main\java\com\huyy\NIO" />
       <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study\src\main\java\com\huyy\NIO\example" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\netty\src\main\java\com\huyy\netty\simple" />
-      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study" />
-      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study\src\main\java\com\huyy\NIO" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.NettyClient">
+  <component name="RunManager" selected="Application.TestServer">
     <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huyy.netty.simple.NettyClient" />
       <module name="netty" />
@@ -281,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OldIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huyy.NIO.zerocopy.OldIOClient" />
-      <module name="BIO_study" />
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huyy.netty.http.TestServer" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huyy.NIO.zerocopy.*" />
+          <option name="PATTERN" value="com.huyy.netty.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,31 +294,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.OldIOClient" />
       <item itemvalue="Application.NewIOServer" />
       <item itemvalue="Application.NewIOClient" />
       <item itemvalue="Application.NettyServer" />
       <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.TestServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestServer" />
         <item itemvalue="Application.NettyClient" />
         <item itemvalue="Application.NettyServer" />
         <item itemvalue="Application.NewIOClient" />
         <item itemvalue="Application.NewIOServer" />
-        <item itemvalue="Application.OldIOClient" />
       </list>
     </recent_temporary>
   </component>
@@ -337,6 +326,8 @@
       <workItem from="1600667792261" duration="2605000" />
       <workItem from="1600775877013" duration="616000" />
       <workItem from="1600847995530" duration="10033000" />
+      <workItem from="1600918950826" duration="8931000" />
+      <workItem from="1600998284043" duration="599000" />
     </task>
     <servers />
   </component>
@@ -376,22 +367,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600322133974" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1600876491368">
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom" timestamp="1600935141153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600876491368" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1600876491367">
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600935141153" />
+    <state width="1877" height="332" key="GridCell.Tab.0.center" timestamp="1600935141152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600876491367" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1600876491367">
+    <state width="1877" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600935141152" />
+    <state width="1877" height="332" key="GridCell.Tab.0.left" timestamp="1600935141152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600876491367" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1600876491367">
+    <state width="1877" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600935141152" />
+    <state width="1877" height="332" key="GridCell.Tab.0.right" timestamp="1600935141153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600876491367" />
+    <state width="1877" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600935141153" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1600876491368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -412,10 +403,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" width="918" height="851" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600851726757" />
-    <state x="681" y="261" width="564" height="524" key="StructurePopup" timestamp="1600350474405">
+    <state x="681" y="261" width="564" height="524" key="StructurePopup" timestamp="1600952556308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="261" width="564" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600350474405" />
+    <state x="681" y="261" width="564" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600952556308" />
     <state x="618" y="481" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600851035369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
