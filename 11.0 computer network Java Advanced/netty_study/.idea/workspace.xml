@@ -162,9 +162,6 @@
   <component name="ChangeListManager">
     <list default="true" id="212ac170-ac16-400f-9c3a-0252778e06d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/huyy/netty/simple/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/huyy/netty/simple/NettyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/huyy/netty/simple/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/huyy/netty/simple/NettyServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/target/classes/com/huyy/netty/simple/NettyServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty/target/classes/com/huyy/netty/simple/NettyServerHandler.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +324,7 @@
       <workItem from="1600775877013" duration="616000" />
       <workItem from="1600847995530" duration="10033000" />
       <workItem from="1600918950826" duration="8931000" />
-      <workItem from="1600998284043" duration="599000" />
+      <workItem from="1600998284043" duration="2439000" />
     </task>
     <servers />
   </component>
