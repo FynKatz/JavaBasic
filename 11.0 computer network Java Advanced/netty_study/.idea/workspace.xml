@@ -162,6 +162,7 @@
   <component name="ChangeListManager">
     <list default="true" id="212ac170-ac16-400f-9c3a-0252778e06d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/huyy/netty/http/TestServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/huyy/netty/http/TestServerInitializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +205,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/netty/src/main/java/com/huyy/netty/http" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/netty/src/main/java/com/huyy/netty/buf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -213,64 +214,67 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\netty\src\main\java\com\huyy\netty\heartbeat" />
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\netty\src\main\java\com\huyy\netty\groupchat" />
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\netty\src\main\java\com\huyy\netty\buf" />
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study" />
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study\src\main\java\com\huyy\NIO" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\netty\src\main\java\com\huyy\netty\buf" />
       <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\netty\src\main\java\com\huyy\netty\http" />
       <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\netty\src\main\java\com\huyy\netty\simple" />
       <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study" />
       <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study\src\main\java\com\huyy\NIO" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study" />
-      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study\src\main\java\com\huyy\NIO" />
-      <recent name="E:\Java\JavaBasic\11.0 computer network Java Advanced\netty_study\BIO_study\src\main\java\com\huyy\NIO\example" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.TestServer">
+  <component name="RunManager" selected="Application.GroupChatClient">
+    <configuration name="GroupChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huyy.netty.groupchat.GroupChatClient" />
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huyy.netty.groupchat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huyy.netty.groupchat.GroupChatServer" />
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huyy.netty.groupchat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huyy.netty.heartbeat.MyServer" />
+      <module name="netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huyy.netty.heartbeat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huyy.netty.simple.NettyClient" />
       <module name="netty" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.huyy.netty.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huyy.netty.simple.NettyServer" />
-      <module name="netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huyy.netty.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huyy.NIO.zerocopy.NewIOClient" />
-      <module name="BIO_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huyy.NIO.zerocopy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huyy.NIO.zerocopy.NewIOServer" />
-      <module name="BIO_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huyy.NIO.zerocopy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,20 +295,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.NewIOServer" />
-      <item itemvalue="Application.NewIOClient" />
-      <item itemvalue="Application.NettyServer" />
       <item itemvalue="Application.NettyClient" />
       <item itemvalue="Application.TestServer" />
+      <item itemvalue="Application.GroupChatServer" />
+      <item itemvalue="Application.GroupChatClient" />
+      <item itemvalue="Application.MyServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupChatClient" />
+        <item itemvalue="Application.MyServer" />
+        <item itemvalue="Application.GroupChatServer" />
         <item itemvalue="Application.TestServer" />
         <item itemvalue="Application.NettyClient" />
-        <item itemvalue="Application.NettyServer" />
-        <item itemvalue="Application.NewIOClient" />
-        <item itemvalue="Application.NewIOServer" />
       </list>
     </recent_temporary>
   </component>
@@ -325,6 +340,7 @@
       <workItem from="1600847995530" duration="10033000" />
       <workItem from="1600918950826" duration="8931000" />
       <workItem from="1600998284043" duration="2439000" />
+      <workItem from="1601188387616" duration="11180000" />
     </task>
     <servers />
   </component>
@@ -348,10 +364,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1600850494536" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600599471572">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601211728758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600599471572" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601211728758" />
     <state x="750" y="272" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1600851706112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -364,38 +380,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600322133974" />
-    <state width="1877" height="332" key="GridCell.Tab.0.bottom" timestamp="1600935141153">
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom" timestamp="1601212024609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600935141153" />
-    <state width="1877" height="332" key="GridCell.Tab.0.center" timestamp="1600935141152">
+    <state width="1877" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601212024609" />
+    <state width="1877" height="332" key="GridCell.Tab.0.center" timestamp="1601212024609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600935141152" />
-    <state width="1877" height="332" key="GridCell.Tab.0.left" timestamp="1600935141152">
+    <state width="1877" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601212024609" />
+    <state width="1877" height="332" key="GridCell.Tab.0.left" timestamp="1601212024609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600935141152" />
-    <state width="1877" height="332" key="GridCell.Tab.0.right" timestamp="1600935141153">
+    <state width="1877" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601212024609" />
+    <state width="1877" height="332" key="GridCell.Tab.0.right" timestamp="1601212024609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600935141153" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1600876491368">
+    <state width="1877" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601212024609" />
+    <state width="1877" height="505" key="GridCell.Tab.1.bottom" timestamp="1601194612514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600876491368" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1600876491368">
+    <state width="1877" height="505" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601194612514" />
+    <state width="1877" height="505" key="GridCell.Tab.1.center" timestamp="1601194612514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600876491368" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1600876491368">
+    <state width="1877" height="505" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601194612514" />
+    <state width="1877" height="505" key="GridCell.Tab.1.left" timestamp="1601194612514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600876491368" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1600876491368">
+    <state width="1877" height="505" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601194612514" />
+    <state width="1877" height="505" key="GridCell.Tab.1.right" timestamp="1601194612514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600876491368" />
+    <state width="1877" height="505" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601194612514" />
     <state x="461" y="164" width="918" height="851" key="SettingsEditor" timestamp="1600851726757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

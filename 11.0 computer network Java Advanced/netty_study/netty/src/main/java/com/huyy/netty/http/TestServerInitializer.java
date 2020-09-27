@@ -15,6 +15,7 @@ public class TestServerInitializer extends ChannelInitializer<SocketChannel> {
 
         //得到管道
         ChannelPipeline pipeline = ch.pipeline();
+//        pipeline.channel().   可以获取Channel
 
         //加入一个netty 提供的httpServerCodec codec =>[coder - decoder]
         //HttpServerCodec 说明
