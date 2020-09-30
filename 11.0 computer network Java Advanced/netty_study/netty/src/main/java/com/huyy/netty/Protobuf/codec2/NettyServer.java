@@ -1,6 +1,5 @@
 package com.huyy.netty.Protobuf.codec2;
 
-import com.huyy.netty.Protobuf.codec1.StudentPojo;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -35,7 +34,7 @@ public class NettyServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         //给pipeline 设置处理器
                         @Override
-                        protected void initChannel(SocketChannel ch) throws Exception {
+                        protected void initChannel(SocketChannel ch) {
                             ChannelPipeline pipeline = ch.pipeline();
 
                             //添加Protobuf接码器                                   //指定对哪种对象进行接码
@@ -51,14 +50,11 @@ public class NettyServer {
             //4. 绑定一个端口并且同步, 生成了一个 ChannelFuture 对象【绑定即启动服务器】
             ChannelFuture cf = bootstrap.bind(6668).sync();
             //给cf 注册监听器，监控我们关心的事件
-            cf.addListener(new ChannelFutureListener() {
-                @Override
-                public void operationComplete(ChannelFuture future) throws Exception {
-                    if (cf.isSuccess()) {
-                        System.out.println("监听端口 6668 成功");
-                    } else {
-                        System.out.println("监听端口 6668 失败");
-                    }
+            cf.addListener((ChannelFutureListener) future -> {
+                if (cf.isSuccess()) {
+                    System.out.println("监听端口 6668 成功");
+                } else {
+                    System.out.println("监听端口 6668 失败");
                 }
             });
 

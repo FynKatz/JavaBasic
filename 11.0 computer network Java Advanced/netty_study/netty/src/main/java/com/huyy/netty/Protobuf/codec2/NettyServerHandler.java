@@ -13,7 +13,7 @@ import io.netty.util.CharsetUtil;
  */
 public class NettyServerHandler extends ChannelInboundHandlerAdapter {
 
-    ByteToMessageDecoder
+
     //1. 读取数据(客户端消息)事件时触发
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
