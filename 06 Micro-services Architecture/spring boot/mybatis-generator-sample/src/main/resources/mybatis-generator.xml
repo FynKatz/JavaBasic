@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+	<!--数据库驱动 -->
+	<classPathEntry location="D:\maven\apache-maven-3.6.0\Repository\mysql\mysql-connector-java\5.1.47\mysql-connector-java-5.1.47.jar" />
+
+	<!-- targetRuntime常用值: MyBatis3Simple(只生成基本的CRUD和少量的动态SQL) MyBatis3(生成完整的CRUD，包含CriteriaAPI方法Example后缀的方法) -->
+	<context id="context" targetRuntime="MyBatis3">
+	
+	    <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+		<commentGenerator>
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+		
+		<!--数据库链接地址账号密码 -->
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://localhost:3306/test??useSSL=false&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull&amp;allowMultiQueries=true"
+			userId="root" password="123456">
+		</jdbcConnection>
+
+	    <!-- java类型处理器 用于处理DB中的类型到Java中的类型 -->
+		<!-- 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer，为 true时把JDBC DECIMAL 和  NUMERIC 类型解析为java.math.BigDecimal -->
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+		
+		<!-- 生成实体类 目录结构按照自己的需要 -->
+		       <!-- targetPackage：生成的类要放的包 -->
+	           <!-- targetProject:mapper映射文件生成的位置 如果maven工程只是单独的一个工程，targetProject="src/main/java" 
+		                  如果maven工程是分模块的工程，targetProject="所属模块的名称"，例如： targetProject="ecps-manager-mapper"，下同 -->
+		<javaModelGenerator targetPackage="com.huyy.bean" targetProject="src/main/java">
+			<property name="enableSubPackages" value="false" /><!-- enableSubPackages:是否让schema作为包的后缀 -->
+			<property name="trimStrings" value="true" /><!-- 从数据库返回的值被清理前后的空格 -->
+		</javaModelGenerator>
+		
+		<!-- 生成XML映射文件  目录结构按照自己需要设置 -->
+		<sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
+			<property name="enableSubPackages" value="false" /><!-- enableSubPackages:是否让schema作为包的后缀 -->
+		</sqlMapGenerator>
+		
+		<!-- 生成Mapper接口 -->
+        <!-- 生成的Mapper类型：ANNOTATEDMAPPER（注解）、MIXEDMAPPER（混合）、XMLMAPPER（XML） -->
+		<javaClientGenerator type="XMLMAPPER" targetPackage="com.huyy.mapper" targetProject="src/main/java">
+			<property name="enableSubPackages" value="false" /><!-- 是否将数据库中的schema作为包名的一部分，默认就是false -->
+		</javaClientGenerator>
+		
+		<!--数据库的表名-->
+		<!-- domainObjectName实体类名 -->
+		<table tableName="user_info" domainObjectName="UserInfo" enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+		<table tableName="user_password" domainObjectName="UserPassword" enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+	</context>
+	
+</generatorConfiguration>

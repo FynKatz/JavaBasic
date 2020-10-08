@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.huyy.mybatis.mapper.TeacherMapper">
+
+	<!--      一、关联集合对象 ***********N+1查询                                           -->
+	<resultMap type="teacher" id="mymap">
+		<id column="id" property="id" />
+		<result column="name" property="name" />
+		<collection property="list" ofType="student"
+			select="com.huyy.mybatis.mapper.StudentMapper.selectByTid" column="id">
+		</collection>
+	</resultMap>
+
+	<select id="selectAll" resultMap="mymap">
+		select * from teacher
+	</select>
+
+	<!--      二、关联集合对象 ************联合查询                                           -->
+	<resultMap type="teacher" id="mymap2">
+		<id column="id" property="id" />
+		<result column="name" property="name" />
+		<collection property="list" ofType="student">
+			<id column="id" property="id" />
+			<result column="name" property="name" />
+			<result column="age" property="age" />
+			<result column="tid" property="tid" />
+		</collection>
+	</resultMap>
+
+	<select id="selectAll2" resultMap="mymap2">
+		SELECT t.id id,t.name name,s.id,s.name,s.age,s.tid
+		FROM teacher t LEFT JOIN student s on s.tid=t.id
+	</select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+

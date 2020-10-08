@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<!-- 切点所在的类 -->
+	<bean id="demo" class="com.huyy.test.Demo"></bean>
+
+	<!-- 异常通知类 -->
+	<bean id="myaround" class="com.huyy.advice.MyAround"></bean>
+	
+	<!-- 切点设置 -->
+	<aop:config>
+		<!-- 切点 -->
+		<aop:pointcut expression="execution(* com.huyy.test.Demo.demo1())" id="mypoint"/>
+		<!-- 异常通知 -->
+		<aop:advisor advice-ref="myaround" pointcut-ref="mypoint"/>
+	</aop:config>
+	
+</beans>
+

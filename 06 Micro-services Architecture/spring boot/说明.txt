@@ -1,0 +1,2 @@
+redis-service：spring Data Redis的订阅发布模式。
+springboot-redis-message-pubsub-demo-master：spring boot 整合Redis的订阅发布模式。
