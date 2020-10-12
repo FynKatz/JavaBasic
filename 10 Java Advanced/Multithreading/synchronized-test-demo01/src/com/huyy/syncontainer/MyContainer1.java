@@ -59,15 +59,18 @@ public class MyContainer1<T> {
     
     
     public static void main(String[] args) {
-        final MyContainer1<String> container = new MyContainer1<String>();
+        final MyContainer1<String> container = new MyContainer1<>();
         for (int i = 0; i < 10; i++) {
             //消费者线程
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    for (int j=0;j<5;j++)System.out.println(container.get());
+                    for (int j=0;j<5;j++) {
+                        String str = container.get();
+                        System.out.println(Thread.currentThread().getName()+" 消费："+str);
+                    }
                 }
-            }, "c消费者：" + i).start();
+            }, "消费者" + i).start();
         }
         
         try {
@@ -77,14 +80,17 @@ public class MyContainer1<T> {
         }
         for (int i = 0; i < 2; i++) {
             //生产者线程
+            int finalI = i;
             new Thread(new Runnable() {
                 @Override
                 public void run() {
                     for (int j = 0; j < 25; j++) {
-                        container.put(Thread.currentThread().getName());
+                        String str = finalI+"-"+j;
+                        container.put(str);//生产
+                        System.out.println(Thread.currentThread().getName()+" 生产："+str);
                     }    
                 }
-            }, "p生产者：" + i).start();
+            }, "生产者" + i).start();
         }
     }
 }

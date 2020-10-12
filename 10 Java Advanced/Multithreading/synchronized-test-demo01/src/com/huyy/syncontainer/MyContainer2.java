@@ -1,6 +1,7 @@
 package com.huyy.syncontainer;
 
 import java.util.LinkedList;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -15,13 +16,16 @@ public class MyContainer2<T> {
     private int conut = 0;
     
     private Lock lock = new ReentrantLock();
-    
-    private Condition producer = lock.newCondition();//生产者锁
-    private Condition consumer = lock.newCondition();//消费者锁
+
+    //生产者锁
+    private Condition producer = lock.newCondition();
+    //消费者锁
+    private Condition consumer = lock.newCondition();
     
     public int getCount (){
         return this.conut;
     }
+
     //生产者生产
     public void put (T t){
         try {
@@ -58,31 +62,39 @@ public class MyContainer2<T> {
     }
     
     public static void main(String[] args) {
-        final MyContainer2<String> c = new MyContainer2<String>();
-        
+        final MyContainer2<String> container2 = new MyContainer2<>();
+
         for (int i = 0; i < 10; i++) {
+            //消费者线程
             new Thread(new Runnable() {
-                
                 @Override
                 public void run() {
-                    while(true){
-                        System.out.println(c.get());
+                    for (int j=0;j<5;j++) {
+                        String str = container2.get();
+                        System.out.println(Thread.currentThread().getName()+" 消费："+str);
                     }
                 }
-            }, "c" + i).start();
+            }, "消费者" + i).start();
         }
-        
+
+        try {
+            TimeUnit.SECONDS.sleep(2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         for (int i = 0; i < 2; i++) {
+            //生产者线程
+            int finalI = i;
             new Thread(new Runnable() {
-                
                 @Override
                 public void run() {
-                    while(true){
-                        c.put(Thread.currentThread().getName());
+                    for (int j = 0; j < 25; j++) {
+                        String str = finalI+"-"+j;
+                        container2.put(str);//生产
+                        System.out.println(Thread.currentThread().getName()+" 生产："+str);
                     }
                 }
-            }, "p" + i).start();
-            
+            }, "生产者" + i).start();
         }
     }
     
