@@ -1,4 +1,4 @@
-package com.hyy.sparsearray;
+package com.huyy.sparsearray;
 
 public class SparseArray {
 

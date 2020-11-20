@@ -1,4 +1,4 @@
-package com.huyy.queue;
+package com.huyy.array;
 
 import java.util.Scanner;
 
