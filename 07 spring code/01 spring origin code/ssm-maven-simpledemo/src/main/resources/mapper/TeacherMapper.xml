@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huyy.mapper.TeacherMapper">
+
+    <select id="getAllTeachers" resultType="com.huyy.beans.Teacher">
+        SELECT id,`NAME`,SEX,BIRTHDAY,PRO,DEPART FROM `teacher`;
+    </select>
+    
+    <select id="getTeacherByName" parameterType="java.lang.String" resultType="com.huyy.beans.Teacher">
+        SELECT id,`NAME`,SEX,BIRTHDAY,PRO,DEPART FROM `teacher`
+        WHERE `NAME` = #{name}
+    </select>
+
+	
+</mapper>
