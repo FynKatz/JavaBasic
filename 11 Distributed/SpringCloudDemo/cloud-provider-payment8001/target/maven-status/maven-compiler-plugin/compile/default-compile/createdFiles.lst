@@ -1,7 +1,5 @@
 com\huyy\springcloud\PaymentApp8001.class
-com\huyy\springcloud\bean\Payment.class
 com\huyy\springcloud\controller\PaymentController.class
 com\huyy\springcloud\mapper\PaymentMapper.class
 com\huyy\springcloud\service\impl\PaymentServiceImpl.class
 com\huyy\springcloud\service\PaymentService.class
-com\huyy\springcloud\bean\CommonResult.class

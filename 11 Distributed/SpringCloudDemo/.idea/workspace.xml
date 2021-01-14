@@ -161,11 +161,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b471c477-48b4-4312-a319-70c91436670e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-commons-api/src/main/java/com/huyy/springcloud/bean/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-commons-api/src/main/java/com/huyy/springcloud/bean/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-commons-api/target/classes/com/huyy/springcloud/bean/CommonResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-commons-api/target/classes/com/huyy/springcloud/bean/CommonResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-commons-api/target/cloud-commons-api-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-commons-api/target/cloud-commons-api-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-commons-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-commons-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/cloud-consumer-order80-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/cloud-consumer-order80-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/huyy/springcloud/PaymentApp8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/huyy/springcloud/PaymentApp8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/huyy/springcloud/PaymentApp8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/huyy/springcloud/PaymentApp8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/cloud-provider-payment8001-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/cloud-provider-payment8001-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,6 +191,13 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
     <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -202,31 +224,51 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-commons-api/src/main/java/com/huyy/springcloud/bean" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/huyy/springcloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaBasic\11 Distributed\SpringCloudDemo\cloud-eureka-server7001\src\main\java\com\huyy\springcloud" />
+      <recent name="E:\Java\JavaBasic\11 Distributed\SpringCloudDemo\cloud-eureka-server7001\src\main\resources" />
       <recent name="E:\Java\JavaBasic\11 Distributed\SpringCloudDemo\cloud-commons-api\src\main\java\com\huyy\springcloud\bean" />
       <recent name="E:\Java\JavaBasic\11 Distributed\SpringCloudDemo\cloud-consumer-order80\src\main\java\com\huyy\springcloud\controller" />
       <recent name="E:\Java\JavaBasic\11 Distributed\SpringCloudDemo\cloud-consumer-order80\src\main\java\com\huyy\springcloud\bean" />
-      <recent name="E:\Java\JavaBasic\11 Distributed\SpringCloudDemo\cloud-consumer-order80\src\main\java\com\huyy\springcloud" />
-      <recent name="E:\Java\JavaBasic\11 Distributed\SpringCloudDemo\cloud-consumer-order80\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentApp8001">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaApp7001">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApp7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huyy.springcloud.EurekaApp7001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,6 +297,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610541893517</updated>
       <workItem from="1610541897438" duration="2378000" />
+      <workItem from="1610623325691" duration="4682000" />
     </task>
     <servers />
   </component>
@@ -271,24 +314,49 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1610544280025">
+    <state x="414" y="175" width="1186" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610624719760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610544280025" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1610544280025">
+    <state x="414" y="175" width="1186" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610624719760" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1610624484568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610544280025" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1610544280025">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610624484568" />
+    <state width="1515" height="308" key="GridCell.Tab.0.bottom" timestamp="1610629234291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610544280025" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1610544280025">
+    <state width="1515" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610629234291" />
+    <state width="1515" height="308" key="GridCell.Tab.0.center" timestamp="1610629234291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610544280025" />
+    <state width="1515" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610629234291" />
+    <state width="1515" height="308" key="GridCell.Tab.0.left" timestamp="1610629234291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610629234291" />
+    <state width="1515" height="308" key="GridCell.Tab.0.right" timestamp="1610629234291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610629234291" />
+    <state width="1515" height="308" key="GridCell.Tab.1.bottom" timestamp="1610629234291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="308" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610629234291" />
+    <state width="1515" height="308" key="GridCell.Tab.1.center" timestamp="1610629234291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="308" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610629234291" />
+    <state width="1515" height="308" key="GridCell.Tab.1.left" timestamp="1610629234291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="308" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610629234291" />
+    <state width="1515" height="308" key="GridCell.Tab.1.right" timestamp="1610629234291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="308" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610629234291" />
     <state x="531" y="187" width="858" height="518" key="Registry" timestamp="1610543183402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -297,9 +365,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610543150967" />
-    <state x="334" y="180" key="new project wizard" timestamp="1610543626670">
+    <state x="334" y="180" key="new project wizard" timestamp="1610626648841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610543626670" />
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610626648841" />
   </component>
 </project>
